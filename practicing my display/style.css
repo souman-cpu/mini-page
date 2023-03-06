@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    height: 100vh;
+}
+body{
+    font-family: monospace;
+    max-width: 800px;
+    margin:auto;
+}
+
+header{
+    background-color: bisque;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+
+}
+
+h1{
+    margin:1rem;
+    cursor: pointer;
+}
+
+ul{
+    margin: 1.5rem;
+}
+
+ul li{
+    display: inline-block;
+    margin-inline:.2rem;
+}
+ul li a{
+    border: .5px solid black;
+    padding: .2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+section p{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    text-align: justify;
+    
+}
+
+h2{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 200px;
+    text-align: center;
+    padding: .5rem;
+    margin:1rem auto;
+    position: sticky;
+    top: 0;  
+}
+.one h2{background-color: cadetblue;}
+.two h2{background-color: coral;}
+.three h2{background-color: darkkhaki;}
+.four h2{background-color: darkturquoise;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    padding: 20px;
+    min-height: 100vh;       /*to take show us the hole page
+}
+.container{
+    border: 1px solid black;
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline:auto;         /*to center the box horizontelly the left and right margins 
+    display: flex
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap;   /*this is a shorthand for the flex-direction and flex wrap
+    
+}
+.box{
+    min-width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    padding: 1rem;
+
+    	    /*we can use this propreties to center any element 
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}  */
+
+    /*this an EX 1 using the display flex in the unorderd list
+
+header{
+    min-height: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content:space-between;
+}
+h1{
+    margin:1rem;
+}
+ul.nav{
+    display: flex;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+ul.nav li{
+    margin: auto;
+    margin-inline: .5rem;
+
+}
+ul.nav a{
+    border: 0.5px solid black;
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    color: black;
+}
+a
+,ul.nav a:visited{
+    color: black;
+}
+
+ul.nav a:hover{
+    background-color: darkkhaki;
+    text-decoration: underline;
+}
+ul.nav a:active{
+    color: red;
+}*/
+
+
+
+
+
